@@ -8,7 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
+
 @interface ViewController : UIViewController
+@property (nonatomic,strong) NSArray *LayoutConstraints;
+
+@property (nonatomic,strong) NSMutableArray *dataArray;
+@property (nonatomic,strong) UITableView *mainTableView;
 
 
 @end
