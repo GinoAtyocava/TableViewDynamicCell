@@ -11,5 +11,6 @@ git reset --hard <commit id>回退到某个版本
 git log 查看log
 git reflog 查看每一次的命令纪录
 
-测试一下不添加到缓存区 直接commit会有什么问题
+git checkout -- <file>  撤销对这个文件的修改 回到最近一次git commit/git add时的状态。就是丢弃工作区的修改
+git reset HEAD <file>  丢弃暂存区的修改
 
