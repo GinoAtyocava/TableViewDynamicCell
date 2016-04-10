@@ -14,3 +14,8 @@ git reflog 查看每一次的命令纪录
 git checkout -- <file>  撤销对这个文件的修改 回到最近一次git commit/git add时的状态。就是丢弃工作区的修改
 git reset HEAD <file>  丢弃暂存区的修改
 
+git branch 列出当前所有分支
+git branch <branch-name> 创建一个分支
+git checkout <branch-name> 切换到某个分支
+git checkout -b <branch-name> 组合命令，创建分支，并切换到这个分支
+
