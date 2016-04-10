@@ -20,3 +20,5 @@ git checkout <branch-name> 切换到某个分支
 git checkout -b <branch-name> 组合命令，创建分支，并切换到这个分支
 
 git log --pretty=oneline 每个commit 一行
+
+git merge <branch-name>  把分支合并到当前分支（快速合并）
