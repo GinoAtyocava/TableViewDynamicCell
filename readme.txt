@@ -39,5 +39,9 @@ git stash drop <stash> 删除stash
 git stash pop 回复stash 并删除
 
 git branch -D <branch-name>强制删除某个分支（未合并的分支）
+git push origin <branch-name> 把分支推送到远程库
+git checkout -b <branch-name> origin/<branch-name> 把远程的分支创建到本地
 
-
+add by Gino(for test)
+这里测试从不同的分支提交代码
+合并代码，并提交
