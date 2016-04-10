@@ -26,3 +26,4 @@ git merge <branch-name>  把分支合并到当前分支（快速合并）
 git branch -d <branch-name> 删除某个分支（当前不能在要删除的这个分支上）
 当Git无法自动合并分支时，就必须首先解决冲突。解决冲突后，再提交，合并完成。
 
+git merge --no-ff -m "commit log" <branch-name> 使用no-ff模式合并代码，合并后的历史有分支，能看出来曾经做过合并（即使删除这个分支后）
