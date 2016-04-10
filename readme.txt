@@ -50,3 +50,11 @@ add by Gino(for test)
 建立本地分支和远程分支的关联，使用git branch --set-upstream-to=origin/branch-name branch-name；
 每次开始工作的时候从远程拉取最新的分支信息，git pull 如果有冲突 先解决冲突；
 完成之后再次提交到远程
+
+命令git tag <name>用于新建一个标签，默认为HEAD，也可以指定一个commit id；
+
+git tag -a <tagname> -m "blablabla..."可以指定标签信息；
+
+git tag -s <tagname> -m "blablabla..."可以用PGP签名标签；
+
+命令git tag可以查看所有标签。
