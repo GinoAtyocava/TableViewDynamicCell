@@ -35,3 +35,6 @@ git stash list 获取stashlist
 git stash apply <stash>回复到stash 不删除该stash
 git stash drop <stash> 删除stash
 git stash pop 回复stash 并删除
+
+git branch -D <branch-name>强制删除某个分支（未合并的分支）
+
