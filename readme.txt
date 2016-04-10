@@ -28,5 +28,10 @@ git branch -d <branch-name> 删除某个分支（当前不能在要删除的这�
 
 git merge --no-ff -m "commit log" <branch-name> 使用no-ff模式合并代码，合并后的历史有分支，能看出来曾经做过合并（即使删除这个分支后）
 
-
 为爱判处终身孤寂，不还手，不放手（测试 bug分支）
+
+git stash 保存现场
+git stash list 获取stashlist
+git stash apply <stash>回复到stash 不删除该stash
+git stash drop <stash> 删除stash
+git stash pop 回复stash 并删除
