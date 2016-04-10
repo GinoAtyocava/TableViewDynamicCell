@@ -45,3 +45,8 @@ git checkout -b <branch-name> origin/<branch-name> 把远程的分支创建到�
 add by Gino(for test)
 这里测试从不同的分支提交代码
 合并代码，并提交
+
+多人工作流程：使用git checkout -b branch-name origin/branch-name，本地和远程分支的名称最好一致；
+建立本地分支和远程分支的关联，使用git branch --set-upstream-to=origin/branch-name branch-name；
+每次开始工作的时候从远程拉取最新的分支信息，git pull 如果有冲突 先解决冲突；
+完成之后再次提交到远程
