@@ -43,3 +43,5 @@ git push origin <branch-name> 把分支推送到远程库
 git checkout -b <branch-name> origin/<branch-name> 把远程的分支创建到本地
 
 add by Gino(for test)
+这里测试从不同的分支提交代码
+合并代码，并提交
