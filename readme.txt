@@ -22,6 +22,8 @@ git checkout -b <branch-name> 组合命令，创建分支，并切换到这个�
 git log --pretty=oneline 每个commit 一行
 git log --graph --pretty=oneline --abbrev-commit 带图标的查看log
 
+git rm <file>  删除文件
+
 git merge <branch-name>  把分支合并到当前分支（快速合并）
 git branch -d <branch-name> 删除某个分支（当前不能在要删除的这个分支上）
 当Git无法自动合并分支时，就必须首先解决冲突。解决冲突后，再提交，合并完成。
@@ -37,4 +39,5 @@ git stash drop <stash> 删除stash
 git stash pop 回复stash 并删除
 
 git branch -D <branch-name>强制删除某个分支（未合并的分支）
+
 
