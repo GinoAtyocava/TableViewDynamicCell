@@ -24,5 +24,5 @@ git log --graph --pretty=oneline --abbrev-commit 带图标的查看log
 
 git merge <branch-name>  把分支合并到当前分支（快速合并）
 git branch -d <branch-name> 删除某个分支（当前不能在要删除的这个分支上）
+当Git无法自动合并分支时，就必须首先解决冲突。解决冲突后，再提交，合并完成。
 
-creating a new branch is quick AND simple
